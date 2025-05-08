@@ -1,0 +1,11 @@
+INSERT INTO EQUIPO (ID, NOMBRE) 
+VALUES 
+(1, 'Real Madrid'), 
+(2, 'Barcelona'),
+(3, 'Atlético de Madrid'), 
+(4, 'Sevilla');
+
+INSERT INTO PARTIDO (ID, ID_LOCAL, ID_VISITANTE, ESTADO, GOLES_LOCALES, GOLES_VISITANTE)
+VALUES 
+(1, 1, 2, 'PRIMERA_PARTE', 2, 1),
+(2, 4, 3, 'PENDIENTE', 0, 0 );
